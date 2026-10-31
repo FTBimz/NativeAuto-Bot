@@ -1,0 +1,16 @@
+{
+  "embedColor": "#00DCFF",
+  "successColor": "#00FF7F",
+  "errorColor": "#FF3333",
+  "emojis": {
+    "success": "✅",
+    "error": "❌",
+    "announcement": "📢",
+    "ticket": "🎫"
+  },
+  "botStatus": {
+    "activityName": "/help | NativeAuto Community",
+    "activityType": 0
+  },
+  "aboutText": "**NativeAuto Bot v1.5.7**\nNativeAuto adalah bot Discord yang dibuat untuk membantu pengelolaan fitur dan berbagai jenis perintah umum yang dapat digunakan. sehingga Anggota/Member Indonesia dapat digunakan secara dasar maupun kebutuhan penting."
+}
