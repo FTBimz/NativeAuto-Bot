@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![GitHub package.json version](https://img.shields.io/badge/version-v1.5.7-blue.svg)
+![GitHub package.json version](https://img.shields.io/badge/version-v1.7.2-blue.svg)
 ![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2018.0.0-green.svg)
 ![Discord.js](https://img.shields.io/badge/discord.js-v14-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
