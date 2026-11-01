@@ -17,7 +17,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setColor(config.embedColor)
-            .setTitle('🔍 Hasil Pencarian Google')
+            .setTitle('<:google:1566296703160549416> Hasil Pencarian Google')
             .setDescription(`Berikut adalah hasil pencarian untuk **${query}**:\n[Klik di sini untuk melihat hasil](${searchUrl})`);
         
         await interaction.reply({ embeds: [embed] });

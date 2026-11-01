@@ -17,7 +17,7 @@ module.exports = {
 
         const embed = new EmbedBuilder()
             .setColor(config.embedColor)
-            .setTitle('🗺️ Pencarian Google Maps')
+            .setTitle('<:google_maps:1566296705144590396> Pencarian Google Maps')
             .setDescription(`Lokasi yang dicari: **${lokasi}**\n[Buka di Google Maps](${mapsUrl})`);
         
         await interaction.reply({ embeds: [embed] });

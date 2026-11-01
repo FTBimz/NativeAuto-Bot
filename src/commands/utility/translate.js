@@ -61,7 +61,7 @@ module.exports = {
 
             const embed = new EmbedBuilder()
                 .setColor(config.embedColor)
-                .setTitle('🌐 Google Translate')
+                .setTitle('<:google_translate:1566304174742708266> Google Translate')
                 .addFields(
                     { name: `${detectedLang}:`, value: teks },
                     { name: `${destinationLang}:`, value: translatedText }
@@ -78,7 +78,7 @@ module.exports = {
 
                 const embed = new EmbedBuilder()
                     .setColor(config.embedColor)
-                    .setTitle('🌐 Google Translate')
+                    .setTitle('<:google_translate:1566304174742708266> Google Translate')
                     .addFields(
                         { name: 'AUTO:', value: teks },
                         { name: `${targetLang.toUpperCase()}:`, value: translatedText }

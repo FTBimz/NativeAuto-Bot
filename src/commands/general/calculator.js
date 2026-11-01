@@ -34,7 +34,7 @@ module.exports = {
             }
 
             const embed = new EmbedBuilder()
-                .setTitle('🔢 Kalkulator NativeAuto')
+                .setTitle('<:calculator:1566297500527362230> Kalkulator')
                 .setColor(config.embedColor)
                 .addFields(
                     { name: 'Soal:', value: `\`\`\`${expr}\`\`\`` },

@@ -39,7 +39,7 @@ module.exports = {
                 new ButtonBuilder()
                     .setCustomId('open_ticket')
                     .setLabel('Buka Tiket')
-                    .setEmoji('🎫')
+                    .setEmoji(config.emojis.ticket)
                     .setStyle(ButtonStyle.Primary)
             );
 

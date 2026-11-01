@@ -1,12 +1,12 @@
 {
   "embedColor": "#00DCFF",
-  "successColor": "#00FF7F",
-  "errorColor": "#FF3333",
+  "successColor": "#00CC88",
+  "errorColor": "#F43867",
   "emojis": {
-    "success": "✅",
-    "error": "❌",
-    "announcement": "📢",
-    "ticket": "🎫"
+    "success": "<:green_tick:1566297986735280240>",
+    "error": "<:red_tick:1566297989012652064>",
+    "announcement": "<:announcement:1566302218955788341>",
+    "ticket": "<:ticket:1566300238828929094>"
   },
   "botStatus": {
     "activityName": "/help | NativeAuto Community",

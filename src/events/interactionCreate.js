@@ -81,7 +81,7 @@ module.exports = {
 
                     // Embed Sambutan di dalam Channel Tiket Baru
                     const welcomeTicketEmbed = new EmbedBuilder()
-                        .setTitle(`🎫 Tiket Dukungan - ${interaction.user.tag}`)
+                        .setTitle(`<:ticket:1566300238828929094> Tiket Dukungan - ${interaction.user.tag}`)
                         .setDescription('Halo! Selamat datang di tiket bantuan Anda.\nSilakan jelaskan masalah atau pertanyaan Anda di sini. Tim staff akan segera membalas.')
                         .setColor(config.embedColor)
                         .setTimestamp();

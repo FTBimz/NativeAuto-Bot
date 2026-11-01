@@ -58,7 +58,7 @@ module.exports = {
                     .setDescription(`${config.emojis.success} Giveaway berhasil dimulai di ${channel}!`);
                 return interaction.editReply({ embeds: [success] });
             } catch (error) {
-                return interaction.editReply({ content: '❌ Gagal mengirim giveaway. Pastikan bot memiliki izin di channel tersebut.' });
+                return interaction.editReply({ content: '<:red_tick:1566297989012652064> Gagal mengirim giveaway. Pastikan bot memiliki izin di channel tersebut.' });
             }
         }
 
@@ -71,7 +71,7 @@ module.exports = {
             try {
                 targetMsg = await interaction.channel.messages.fetch(msgId.trim());
             } catch {
-                return interaction.editReply({ content: '❌ Pesan dengan ID tersebut tidak ditemukan. **Pastikan Anda menjalankan perintah ini di channel yang sama dengan tempat pesan giveaway dikirim.**' });
+                return interaction.editReply({ content: '<:red_tick:1566297989012652064> Pesan dengan ID tersebut tidak ditemukan. **Pastikan Anda menjalankan perintah ini di channel yang sama dengan tempat pesan giveaway dikirim.**' });
             }
         } else {
             // Jika dikosongkan, cari 50 pesan terakhir di channel SAAT INI
@@ -84,10 +84,10 @@ module.exports = {
                 );
 
                 if (!targetMsg) {
-                    return interaction.editReply({ content: '❌ Tidak ditemukan pesan giveaway dari bot di channel ini. **Silakan pindah ke channel tempat Anda mengirim giveaway tersebut**, lalu ulangi perintah `/giveaway list`.' });
+                    return interaction.editReply({ content: '<:red_tick:1566297989012652064> Tidak ditemukan pesan giveaway dari bot di channel ini. **Silakan pindah ke channel tempat Anda mengirim giveaway tersebut**, lalu ulangi perintah `/giveaway list`.' });
                 }
             } catch (error) {
-                return interaction.editReply({ content: '❌ Terjadi kesalahan saat membaca riwayat chat.' });
+                return interaction.editReply({ content: '<:red_tick:1566297989012652064> Terjadi kesalahan saat membaca riwayat chat.' });
             }
         }
 
@@ -96,7 +96,7 @@ module.exports = {
             // Gunakan pencarian berbasis karakter Emoji Unicode agar anti-gagal
             const reaction = targetMsg.reactions.cache.find(r => r.emoji.name === '🎉');
             if (!reaction) {
-                return interaction.editReply({ content: '❌ Belum ada yang memberikan reaksi 🎉 pada pesan tersebut.' });
+                return interaction.editReply({ content: '<:red_tick:1566297989012652064> Belum ada yang memberikan reaksi 🎉 pada pesan tersebut.' });
             }
 
             try {
@@ -104,7 +104,7 @@ module.exports = {
                 const participants = users.filter(u => !u.bot).map(u => `<@${u.id}>`);
 
                 if (participants.length === 0) {
-                    return interaction.editReply({ content: '❌ Belum ada partisipan (selain bot) yang mengikuti giveaway ini.' });
+                    return interaction.editReply({ content: '<:red_tick:1566297989012652064> Belum ada partisipan (selain bot) yang mengikuti giveaway ini.' });
                 }
 
                 const winner = participants[Math.floor(Math.random() * participants.length)];
@@ -117,7 +117,7 @@ module.exports = {
                 
                 return interaction.editReply({ embeds: [listEmbed] });
             } catch (error) {
-                return interaction.editReply({ content: '❌ Terjadi kesalahan saat menarik data partisipan.' });
+                return interaction.editReply({ content: '<:red_tick:1566297989012652064> Terjadi kesalahan saat menarik data partisipan.' });
             }
         }
 

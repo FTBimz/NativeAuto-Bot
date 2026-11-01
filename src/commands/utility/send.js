@@ -19,6 +19,6 @@ module.exports = {
             allowedMentions: { parse: [] } // Blokir semua ping (everyone, roles, users)
         });
 
-        await interaction.reply({ content: 'Pesan terkirim.', ephemeral: true });
+        await interaction.reply({ content: '<:green_tick:1566297986735280240> Pesan terkirim!', ephemeral: true });
     }
 };

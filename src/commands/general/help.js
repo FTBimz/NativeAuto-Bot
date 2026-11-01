@@ -12,14 +12,14 @@ module.exports = {
         await interaction.deferReply(); 
 
         const embed = new EmbedBuilder()
-            .setTitle('📚 Panduan Perintah NativeAuto Bot')
+            .setTitle('<:blurple_slash_commands:1566316304745496746> Panduan Perintah NativeAuto Bot')
             .setColor(config.embedColor)
             .setDescription('Berikut adalah daftar perintah yang tersedia di server ini:')
             .addFields(
-                { name: '🛡️ Moderasi & Utilitas', value: '`/announcement` - Kirim pengumuman (Admin)\n`/send` - Kirim pesan bebas\n`/ticket setup` & `/ticket settings` - Tiket bantuan' },
-                { name: '🎁 Fun & Interaksi', value: '`/giveaway` - Sistem undian\n`/dice` - Lempar dadu\n`/8ball` - Tanya bola ajaib\n`/vc run` & `/vc leave` - Kontrol Voice' },
-                { name: '🔍 Pencarian', value: '`/google` - Cari Google\n`/maps` - Cari alamat\n`/translate` - Terjemahan\n`/youtube` - Cari video\n`/weather` - Cek cuaca' },
-                { name: '⚙️ Sistem', value: '`/calculator` - Hitung matematika\n`/ping` - Cek jaringan\n`/about` - Info bot' }
+                { name: '<:announcement:1566302218955788341> Utilitas', value: '`/announcement` - Kirim pengumuman (Admin)\n`/send` - Kirim pesan bebas\n`/ticket setup` & `/ticket settings` - Tiket bantuan' },
+                { name: '<:giveaway:1566314727301451796> Fun & Interaksi', value: '`/giveaway` - Sistem undian\n`/dice` - Lempar dadu\n`/8ball` - Tanya bola ajaib\n`/vc run` & `/vc leave` - Kontrol Voice' },
+                { name: '<:google:1566296703160549416> Pencarian', value: '`/google` - Cari Google\n`/maps` - Cari alamat\n`/translate` - Terjemahan\n`/youtube` - Cari video\n`/weather` - Cek cuaca' },
+                { name: '<a:yellow_gears:1566314619251851444> Sistem', value: '`/calculator` - Hitung matematika\n`/ping` - Cek jaringan\n`/about` - Info bot' }
             )
             .setFooter({ text: 'Gunakan / (slash) untuk melihat opsi.', iconURL: interaction.client.user.displayAvatarURL() })
             .setTimestamp();
