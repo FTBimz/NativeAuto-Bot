@@ -13,7 +13,7 @@ An Indonesian-based Discord bot built for utility, automation, and general serve
 
 ---
 
-## 📌 Features
+## Features
 
 * **🌐 Translate (`/translate`)**: Real-time translation supporting over 25+ major world languages with automatic source detection.
 * **▶️ YouTube Search (`/youtube`)**: Automatically searches and fetches the most relevant video link with embedded Discord player support.
@@ -24,7 +24,7 @@ An Indonesian-based Discord bot built for utility, automation, and general serve
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
