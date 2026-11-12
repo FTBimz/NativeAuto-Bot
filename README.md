@@ -1,4 +1,4 @@
-# 🤖 NativeAuto Discord Bot
+# NativeAuto Discord Bot
 
 <div align="center">
 
@@ -20,7 +20,7 @@ An Indonesian-based Discord bot built for utility, automation, and general serve
 * **🔢 Calculator (`/calculator`)**: Advanced mathematical expression evaluator with symbol normalization (`:` / `÷` for division, `x` / `×` for multiplication).
 * **📢 Announcement (`/announcement`)**: Advanced broadcast tool supporting multi-attachments (images/videos) and role or `@everyone` mentions.
 * **🎫 Ticket System (`/ticket`)**: Private support ticket creation with automated category grouping and staff controls.
-* **📊 Custom Streaming Status**: Displays a custom status with real-time Indonesian date formatting (`Arah mata Angin | [Day, Date]`) that updates daily.
+* **📊 Custom Streaming Status**: Displays a custom status with real-time Indonesian date formatting (`Arah Mata Angin | [Day, Date]`) that updates daily.
 
 ---
 
