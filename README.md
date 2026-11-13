@@ -1,32 +1,74 @@
+[nativeauto_readme.md](https://github.com/user-attachments/files/34809536/nativeauto_readme.md)
 # NativeAuto Discord Bot
 
-<div align="center">
-
-![GitHub package.json version](https://img.shields.io/badge/version-v1.8.1-blue.svg)
-![Node.js Version](https://img.shields.io/badge/node-%3E%3D%2018.0.0-green.svg)
-![Discord.js](https://img.shields.io/badge/discord.js-v14-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-yellow.svg)
-
-An Indonesian-based Discord bot built for utility, automation, and general server management purposes.
-
-</div>
-
----
+NativeAuto is a multi-purpose Discord bot built with Node.js and Discord.js v14, designed for utility, automation, and comprehensive server management.
 
 ## Features
 
-* **🌐 Translate (`/translate`)**: Real-time translation supporting over 25+ major world languages with automatic source detection.
-* **▶️ YouTube Search (`/youtube`)**: Automatically searches and fetches the most relevant video link with embedded Discord player support.
-* **🔢 Calculator (`/calculator`)**: Advanced mathematical expression evaluator with symbol normalization (`:` / `÷` for division, `x` / `×` for multiplication).
-* **📢 Announcement (`/announcement`)**: Advanced broadcast tool supporting multi-attachments (images/videos) and role or `@everyone` mentions.
-* **🎫 Ticket System (`/ticket`)**: Private support ticket creation with automated category grouping and staff controls.
-* **📊 Custom Streaming Status**: Displays a custom status with real-time Indonesian date formatting (`Arah Mata Angin | [Day, Date]`) that updates daily.
+* Moderation and Management: Essential server moderation tools and administrative utilities.
+* Translation: Real-time translation supporting over 25+ major world languages with automatic source detection.
+* Search and Media: Automated YouTube video search and retrieval with embedded player support.
+* Calculator: Advanced mathematical expression evaluator with symbol normalization.
+* Announcement: Advanced broadcast tool supporting multi-attachments and role mentions.
+* Ticket System: Private support ticket creation with automated category grouping and staff controls.
+* Custom Streaming Status: Dynamic status display featuring real-time date formatting updates.
 
----
+## Project Structure
 
-## Installation & Setup
+```
+NativeAuto/
+├── data/
+├── src/
+│   ├── commands/
+│   ├── events/
+│   └── handlers/
+├── .env
+├── config.json
+├── deploy-commands.js
+├── index.js
+├── package-lock.json
+└── package.json
+```
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/FTBimz/NativeAuto-Bot.git](https://github.com/FTBimz/NativeAuto-Bot.git)
+## Prerequisites
+
+* Node.js version 18.0.0 or higher
+* npm (Node Package Manager)
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/FTBimz/NativeAuto-Bot.git
    cd NativeAuto-Bot
+   ```
+
+2. Install dependencies:
+
+   ```
+   npm install
+   ```
+
+3. Create a .env file and configure your credentials:
+
+   ```
+   TOKEN=your_discord_bot_token_here
+   CLIENT_ID=your_client_id_here
+   ```
+
+4. Deploy slash commands:
+
+   ```
+   node deploy-commands.js
+   ```
+
+5. Start the bot:
+
+   ```
+   node index.js
+   ```
+
+## License
+
+This project is open-source and available under the MIT License.
