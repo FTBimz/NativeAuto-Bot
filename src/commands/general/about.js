@@ -19,7 +19,7 @@ module.exports = {
             .setTitle('About')
             // Deskripsi Konten Utama
             .setDescription(
-                `**NativeAuto - v1.7.2**\n` +
+                `**NativeAuto - v1.8.1**\n` +
                 `NativeAuto adalah bot Discord serbaguna berbasis Indonesia yang dirancang untuk membantu pengelolaan server, utilitas, sistem tiket, dan otomatisasi media.\n\n` +
 
                 `**Sosial Media:**\n` +

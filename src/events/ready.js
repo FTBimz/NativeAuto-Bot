@@ -17,7 +17,7 @@ module.exports = {
 
         const updateStatus = () => {
             const currentDate = getFormattedDate();
-            const statusText = `Arah mata Angin | ${currentDate}`;
+            const statusText = `Arah Mata Angin | ${currentDate}`;
 
             client.user.setPresence({
                 activities: [{
